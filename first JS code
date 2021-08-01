@@ -1,0 +1,13 @@
+'''javascript
+<html>
+  <head><title>First JS code</title></head>
+    <body>
+      <script type="text/javascript">
+        document.write ("this is first JS code!!!")
+      </script>
+      <noscript>
+        Your browser doesn't support JS, or it's support is disabled 
+      </noscript
+    </body>
+</html>
+'''
