@@ -1,0 +1,6 @@
+alert(Boolean(0))
+alert(Boolean(1))
+alert(Boolean(" "))
+alert(Boolean("0"))
+alert(Boolean("Hello!"))
+alert(Boolean(""))
