@@ -1,0 +1,46 @@
+let a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s,t;
+a=""+1+0;
+    alert(a);
+    alert(typeof a);
+b="" - 1 + 0;
+    alert(b);
+    alert(typeof b);
+c=true + false;
+    alert(c);
+    alert(typeof c);
+d=6 / "3";
+    alert(d);
+    alert(typeof d);
+e="2" * "3"
+    alert(d);
+    alert(typeof d);
+f=4 + 5 + "px"
+    alert(f);
+    alert(typeof f);
+g="$" + 4 + 5;
+    alert(g);
+    alert(typeof g);
+h="4" - 2;
+    alert(h);
+    alert(typeof h);
+i="4px" - 2;
+    alert(i);
+    alert(typeof i);
+j=7 / 0;
+    alert(j);
+    alert(typeof j);
+k="  -9  " + 5;
+    alert(k);
+    alert(typeof k);
+l="  -9  " - 5
+    alert(l);
+    alert(typeof l);
+m=null + 1;
+    alert(m);
+    alert(typeof m);
+n=undefined + 1;
+    alert(n);   
+    alert(typeof n);
+o=" \t \n" - 2;
+    alert(o);   
+    alert(typeof o);
