@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head>
+	<title>Testing of JavaScript code</title>
+		<style type="text/css">
+		.login { 
+		width: 400px; 
+		background: #ccc;
+		padding: 5px;
+		padding-right: 20px; 
+		border: solid 1px black; 
+		float: centr;
+		}
+		.block2 { 
+		width: 300px; 
+		background: #fc0; 
+		padding: 5px; 
+		border: solid 1px black; 
+		float: left; 
+		position: relative; 
+		top: 10px; 
+		left: 2 px; 
+		}
+		</style> 
+</head>
+
+<body>
+	
+	<div class="block2" >
+			
+	<h3>
+	08.08.2021<br>
+	login verification on JavaScript:</h3><br>
+	
+	"use strict";<br>
+	let login=prompt("Enter login, please:");<br>
+	if (login == "Admin"){<br>
+	let Password=prompt("Enter Password, please:");<br>
+	if (Password=="Boss"){<br>
+		alert("Hello, boss!");<br>
+	}<br>
+	 else if (Password == "" || Password == null) {<br>
+    alert( "Canceled" );<br>
+	}<br>
+	 else {<br>
+    alert( "Wrong Password" );<br>
+	}	<br>
+	}<br>
+	else if (login==""||login==null){<br>
+	alert ("Canceled");<br>
+	}<br>
+	else {<br>
+	alert ("I don't know you");<br>
+	}<br>
+	<button id="start">start</button>;
+		
+	</div>
+	
+	<script type="text/javascript" >
+	start.onclick = function (){
+            
+			var htmlHeader = document.getElementsByTagName("head")[0];         
+			var myScript = document.createElement('script');
+			myScript.type = 'text/javascript';
+			myScript.src = 'login.js';
+			htmlHeader.appendChild(myScript);
+        }
+	</script>
+</body>
